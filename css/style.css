@@ -630,7 +630,7 @@ Home Section
 About Section
 -------------- */
 
-.about-img {
+.imgabout {
 	width: 40%;
 	padding: 0 15px;
 }
@@ -640,7 +640,7 @@ About Section
 	padding: 0 15px;
 }
 
-.about-img .img-box {
+.imgabout .img-box {
 	background-color: var(--white-alpha-25);
 	max-width: 380px;
 	border: 1px solid var(--white-alpha-40);
@@ -648,7 +648,7 @@ About Section
 	border-radius: 10px;
 }
 
-.about-img .img-box img {
+.imgabout .img-box img {
 	width: 100%;
 }
 
@@ -988,7 +988,7 @@ Responsive
 
 @media(max-width:767px) {
 	.contact-info,
-	.about-img,
+	.imgabout,
 	.about-text {
 		width: 100%;
 	}
